@@ -23,25 +23,27 @@
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
             <div>
-              <a href=""><img src="image/logo.png" alt="" /></a>
+              <a href="index.html"><img src="image/logo.png" alt="" /></a>
             </div>
             <nav>
               <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link active" href="">Home</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="">About</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">What We Do</a>
+                  <a class="nav-link active" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="">Services</a>
+                  <a class="nav-link" href="#aboutus">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="">Platform</a>
+                  <a class="nav-link" href="#whatwedo">What We Do</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="">Foot Print</a>
+                  <a class="nav-link" href="#ourservices">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#theplatform">Platform</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ourfootprint">Foot Print</a>
                 </li>
               </ul>
             </nav>
@@ -50,29 +52,31 @@
             </div>
           </div>
           <div>
-            <ul class="menu-list nav" id="myDiv">
+            <ul class="menu-list nav">
               <div class="container">
                 <div class="menu-close">
                   <i onclick="toggleClose()" class="bi bi-x-lg"></i>
                 </div>
               </div>
               <li class="nav-item">
-                <a class="nav-link active" href="">Home</a>
+                <a class="nav-link active" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">About</a>
+                <a class="nav-link" href="index.html#aboutus" target="_self"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">What We Do</a>
+                <a class="nav-link" href="#whatwedo">What We Do</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Services</a>
+                <a class="nav-link" href="#ourservices">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Platform</a>
+                <a class="nav-link" href="#theplatform">Platform</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Foot Print</a>
+                <a class="nav-link" href="#ourfootprint">Foot Print</a>
               </li>
             </ul>
           </div>
@@ -85,7 +89,7 @@
       <div class="minus">
         <div class="container">
           <div class="row d-flex justify-content-between align-items-end">
-            <div class="col-lg-6">
+            <div class="col-lg-7">
               <div>
                 <h2>
                   Your route to market (RTM) and trade intelligence services
@@ -274,7 +278,7 @@
     </section>
     <!-- What We Cover -->
     <!-- What We Do -->
-    <section class="third">
+    <section class="third" id="whatwedo">
       <div class="container">
         <div class="text-center title">
           <h2>WHAT WE DO</h2>
@@ -357,7 +361,7 @@
     </section>
     <!-- What We Do -->
     <!-- Our Services -->
-    <section class="fourth">
+    <section class="fourth" id="ourservices">
       <div class="container">
         <div class="text-center title">
           <h2>OUR SERVICES</h2>
@@ -510,8 +514,8 @@
       </div>
     </section>
     <!-- Our Services -->
-    <!--  -->
-    <section class="fifth">
+    <!-- The Platform -->
+    <section class="fifth" id="theplatform">
       <div class="container">
         <div class="text-center title">
           <h2>THE PLATFORM</h2>
@@ -555,6 +559,7 @@
         </div>
       </div>
     </section>
+    <!-- The Platform -->
     <!--  -->
     <section class="sixth">
       <div class="container">
@@ -607,30 +612,37 @@
           </div>
           <div class="col-lg-7">
             <div class="phone">
-              <img class="img-fluid" src="image/phoneMockup.png" alt="" />
+              <img
+                class="phone img-fluid"
+                src="image/phoneMockup 2.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </div>
     </section>
     <!--  -->
+    <!-- Work Flow -->
     <section class="six-half">
       <div class="container">
         <div class="text-center title">
-          <!-- <span>OUR FOOT PRINT</span> -->
           <h2>WORK FLOW</h2>
         </div>
         <div>
-          <div>
-            <h2>Your simplified <span> 3-step</span> workflow.</h2>
-          </div>
+          <h2>Your simplified 3-step workflow.</h2>
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
               <div class="one">
                 <span>1 </span>
                 <h2>Enumeration</h2>
-                <p>Outlet GIS Mapping</p>
-                <!-- <p>
+                <p>
+                  Cras fermentum odio eu feugiat lide par naso tierra. Justo
+                  eget nada terra videa magna derita valies darta donna mare
+                  fermentum iaculis eu non diam phasellus.
+                </p>
+                <!-- <p>Outlet GIS Mapping</p>
+                 <p>
                    <br />
                   Outlet Sizing, Status and Open <br />
                   Product Segment Audit <br />
@@ -643,12 +655,17 @@
                 </p> -->
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
               <div class="one">
                 <span>2</span>
                 <h2>Data and Operations</h2>
-                <p>Data cleaning</p>
-                <!-- <p>
+                <p>
+                  Cras fermentum odio eu feugiat lide par naso tierra. Justo
+                  eget nada terra videa magna derita valies darta donna mare
+                  fermentum iaculis eu non diam phasellus.
+                </p>
+                <!-- <p>Data cleaning</p>
+               <p>
                   Data cleaning <br />
 
                   Image Analysis<br />
@@ -672,12 +689,17 @@
                 </p> -->
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
               <div class="one">
                 <span>3</span>
                 <h2>Offering</h2>
-                <p>Route planning Over a MAP</p>
-                <!-- <p>
+                <p>
+                  Cras fermentum odio eu feugiat lide par naso tierra. Justo
+                  eget nada terra videa magna derita valies darta donna mare
+                  fermentum iaculis eu non diam phasellus.
+                </p>
+                <!-- <p>Route planning Over a MAP</p>
+                <p>
                   Route planning Over a MAP <br />
 
                   BIT planning and Assignment <br />
@@ -700,15 +722,18 @@
     </section>
     <!--  -->
     <!-- Our Footprint -->
-    <section class="seventh">
+    <section class="seventh" id="ourfootprint">
       <div class="container">
         <div class="text-center title">
           <h2>OUR FOOT PRINT</h2>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-6" style="align-content: center">
+          <div
+            class="col-lg-6 col-md-6 order-lg-1 order-md-1 order-2"
+            style="align-content: center"
+          >
             <div class="row justify-content-center">
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 col-4">
                 <div class="image">
                   <div class="d-flex justify-content-center">
                     <img
@@ -720,7 +745,7 @@
                   <div class="text-center"><p>Personal Care</p></div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 col-4">
                 <div class="image">
                   <div class="d-flex justify-content-center">
                     <img class="img-fluid" src="image/pharma.png" alt="" />
@@ -728,7 +753,7 @@
                   <div class="text-center"><p>Pharmaceutical</p></div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 col-4">
                 <div class="image">
                   <div class="d-flex justify-content-center">
                     <img
@@ -740,7 +765,7 @@
                   <div class="text-center"><p>Customer Critical</p></div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 col-4">
                 <div class="image">
                   <div class="d-flex justify-content-center">
                     <img
@@ -752,7 +777,7 @@
                   <div class="text-center"><p>food & Beverages</p></div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 col-4">
                 <div class="image">
                   <div class="d-flex justify-content-center">
                     <img class="img-fluid" src="image/homeCare.png" alt="" />
@@ -762,8 +787,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="d-flex justify-content-center">
+          <div class="col-lg-6 col-md-6 order-lg-2 order-md-2 order-1">
+            <div class="map d-flex justify-content-center">
               <img
                 class="img-fluid"
                 src="image/map.png"
@@ -776,25 +801,24 @@
       </div>
     </section>
     <!-- About Us -->
-    <section class="second">
+    <section class="second" id="aboutus">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 align-content-center">
             <h3>About Us</h3>
             <p>
               TradSense® is a route to market automation and trade intelligence
-              services provider.
-            </p>
-            <p>
-              We offer a comprehensive platform and services that deliver
-              valuable business insights and practical intelligence derived from
-              untapped consumer clusters and trade channels. Our primary
-              objective is to equip your organization with detailed and current
-              market information, facilitating sales and distribution activities
-              across diverse categories and company scales. Powered by our
-              robust Platform as a Service (PaaS) engine, TradeSense®, we ensure
-              that your team gains a deep understanding of the market to enhance
-              sales performance.
+              services provider. <br />We offer a comprehensive platform and
+              services that deliver valuable business insights and practical
+              intelligence derived from untapped consumer clusters and trade
+              channels. <br />
+              <br />
+              Our primary objective is to equip your organization with detailed
+              and current market information, facilitating sales and
+              distribution activities across diverse categories and company
+              scales. Powered by our robust Platform as a Service (PaaS) engine,
+              TradeSense®, we ensure that your team gains a deep understanding
+              of the market to enhance sales performance.
             </p>
           </div>
           <div class="col-lg-6">
@@ -804,7 +828,7 @@
       </div>
     </section>
     <!-- About Us -->
-
+    <!--  -->
     <section class="eigth">
       <div class="container">
         <div class="row">
@@ -835,13 +859,13 @@
           </div>
           <div class="col-lg-5">
             <div class="phone">
-              <img class="img-fluid" src="image/Phone.png" alt="" />
+              <img class="phone img-fluid" src="image/Phone.png" alt="" />
             </div>
           </div>
         </div>
       </div>
     </section>
-
+    <!--  -->
     <footer>
       <div class="container">
         <div class="row">
@@ -866,9 +890,9 @@
           <div class="col-lg-2 col-md-4">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">About us</a></li>
-              <li><a href="">Services</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#aboutus">About us</a></li>
+              <li><a href="#ourservices">Services</a></li>
               <li><a href="">Terms of service</a></li>
               <li><a href="">Privacy policy</a></li>
             </ul>
