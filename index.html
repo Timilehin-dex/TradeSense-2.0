@@ -48,7 +48,7 @@
               </ul>
             </nav>
             <div class="menu-open">
-              <i onclick="toggleDiv()" class="bi bi-list"></i>
+              <i onclick="toggleOpen()" class="bi bi-list"></i>
             </div>
           </div>
           <div>
@@ -62,21 +62,33 @@
                 <a class="nav-link active" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html#aboutus" target="_self"
+                <a
+                  class="nav-link"
+                  onclick="toggleClose()"
+                  href="index.html#aboutus"
+                  target="_self"
                   >About</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#whatwedo">What We Do</a>
+                <a class="nav-link" onclick="toggleClose()" href="#whatwedo"
+                  >What We Do</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#ourservices">Services</a>
+                <a class="nav-link" onclick="toggleClose()" href="#ourservices"
+                  >Services</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#theplatform">Platform</a>
+                <a class="nav-link" onclick="toggleClose()" href="#theplatform"
+                  >Platform</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#ourfootprint">Foot Print</a>
+                <a class="nav-link" onclick="toggleClose()" href="#ourfootprint"
+                  >Foot Print</a
+                >
               </li>
             </ul>
           </div>
@@ -859,7 +871,7 @@
           </div>
           <div class="col-lg-5">
             <div class="phone">
-              <img class="phone img-fluid" src="image/Phone.png" alt="" />
+              <img class="phone img-fluid" src="image/phone 2.png" alt="" />
             </div>
           </div>
         </div>
@@ -869,7 +881,7 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-5 col-md-12">
+          <div class="col-lg-5 col-md-12 col-12">
             <div class="foot-img">
               <a href="index.html"
                 ><img class="img-fluid" src="image/logo.png" alt=""
@@ -887,7 +899,7 @@
               <a href=""><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4">
+          <div class="col-lg-2 col-md-4 col-6">
             <h4>Useful Links</h4>
             <ul>
               <li><a href="index.html">Home</a></li>
@@ -897,7 +909,7 @@
               <li><a href="">Privacy policy</a></li>
             </ul>
           </div>
-          <div class="col-lg-2 col-md-4">
+          <div class="col-lg-2 col-md-4 col-6">
             <h4>Our Services</h4>
             <ul>
               <li><a href="">Web Design</a></li>
@@ -907,7 +919,7 @@
               <li><a href=""> Graphic Design</a></li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-3 col-md-4 col-6">
             <h4>Contact Us</h4>
             <p>
               A108 Adam Street <br />

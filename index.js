@@ -36,11 +36,11 @@ window.addEventListener("scroll", function () {
 //     div.style.display = 'none';
 //   }
 // }
-function toggleDiv() {
+function toggleOpen() {
   const menu = document.querySelector(".menu-list");
-  menu.style.display = "flex";
+  menu.style.right = 0;
 }
 function toggleClose() {
   const menu = document.querySelector(".menu-list");
-  menu.style.display = "none";
+  menu.style.right = "-100%";
 }
