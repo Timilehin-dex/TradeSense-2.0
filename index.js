@@ -27,3 +27,26 @@ window.addEventListener("scroll", function () {
     }
   });
 });
+// function toggleDiv() {
+//   var div = document.getElementById('myDiv');
+//   // Check if the div is currently visible or hidden
+//   if (div.style.display === 'none') {
+//     // If it's hidden, show it
+//     div.style.display = 'block';
+//   } else {
+//     // If it's visible, hide it
+//     div.style.display = 'none';
+//   }
+// }
+function toggleDiv() {
+  const menu = document.querySelector(".menu-list");
+  menu.style.display = "flex";
+  const open = document.querySelector(".menu-open");
+  open.style.display = "none";
+}
+function toggleClose() {
+  const menu = document.querySelector(".menu-list");
+  menu.style.display = "none";
+  const open = document.querySelector(".menu-open");
+  open.style.display = "block";
+}
