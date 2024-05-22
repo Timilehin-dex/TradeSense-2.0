@@ -232,6 +232,7 @@ header img {
     margin-bottom: 20px;
   }
 }
+/*  */
 /* What We Cover  */
 .first-half {
   padding: 80px 0;
@@ -283,10 +284,9 @@ header img {
   transition: 0.7s ease-in-out;
 }
 .first-half .text-overlay {
-  /* display: block;  */
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   background-color: rgba(7, 34, 47, 0.9);
   width: 100%;
   height: 100%;
@@ -303,9 +303,10 @@ header img {
   opacity: 1;
   transform: translateY(-100%);
 }
-.first-half .text-overlay ul li {
-  padding: 0 5px;
+.text_xs p {
   color: #fff;
+  font-size: 14px;
+  margin: 0;
 }
 @media (min-width: 300px) and (max-width: 991.98px) {
   .first-half .thing {
@@ -313,7 +314,7 @@ header img {
   }
 }
 /* What We Cover  */
-/*  */
+/* About Us */
 .second {
   padding: 80px 0;
   background-color: var(--primary-color);
@@ -333,15 +334,14 @@ header img {
   margin-bottom: 16px;
   color: #fff;
 }
-/*  */
+/* About Us */
 /* What We Do */
 .third {
   padding: 60px 0;
   background-color: var(--primary-color);
 }
 .third .title {
-  position: relative;
-  padding: 30px 0;
+  padding-bottom: 30px;
 }
 .third .title h3 {
   margin-bottom: 8px;
@@ -446,6 +446,9 @@ header img {
   font-weight: 700;
   margin-bottom: 8px;
 }
+.fifth ol {
+  margin-top: 24px;
+}
 .fifth p {
   color: #fff;
   font-size: 16px;
@@ -475,7 +478,6 @@ header img {
   font-weight: 400;
   color: rgb(10, 13, 19);
 }
-
 .sixth .phone {
   padding-left: 20px;
   animation: phone 5s linear infinite;
@@ -492,10 +494,6 @@ header img {
   }
 }
 @media (min-width: 300px) and (max-width: 571.98px) {
-  .sixth .phone {
-    padding-left: 20px;
-    animation: phone 5s linear infinite;
-  }
   @keyframes phone {
     0% {
       transform: translateX(0);
@@ -551,7 +549,7 @@ header img {
 .six-half .one h2 {
   font-size: 24px;
   font-weight: 600;
-  margin: 40px 0 24px 0;
+  margin: 40px 0 20px 0;
 }
 .six-half .one p {
   font-size: 16px;
@@ -607,6 +605,11 @@ header img {
   margin-bottom: 16px;
   font-size: 12px;
   font-weight: 600;
+}
+@media (min-width: 300px) and (max-width: 767.98px) {
+  .seventh .map {
+    margin-bottom: 20px;
+  }
 }
 /* Our Footprint */
 /*  */
@@ -751,17 +754,6 @@ footer p {
 }
 
 @media (min-width: 300px) and (max-width: 571.98px) {
-  .zero h2 {
-    margin-bottom: 20px;
-    font-size: 40px;
-    font-weight: 700;
-    color: #fff;
-  }
-  .zero p {
-    color: rgb(255, 255, 255, 0.8);
-    font-size: 18px;
-    font-weight: 400;
-  }
   .first {
     padding: 40px 0;
   }
@@ -808,6 +800,97 @@ footer p {
   }
 }
 @media (min-width: 300px) and (max-width: 425.98px) {
+  .zero h2 {
+    font-size: 30px;
+  }
+  .zero p {
+    font-size: 18px;
+  }
+  .first-half .title {
+    padding: 15px 0 0 0;
+  }
+  .first-half .title h2 {
+    font-size: 28px;
+  }
+  .first-half .title h2::after {
+    width: 40px;
+  }
+  .first-half .header p {
+    font-size: 20px;
+  }
+  .third .title h3 {
+    font-size: 26px;
+  }
+  .fourth .title {
+    padding: 15px 0 0 0;
+  }
+  .fourth .title h2 {
+    font-size: 28px;
+  }
+  .fourth .title h2::after {
+    width: 40px;
+  }
+  .fifth .title {
+    padding: 15px 0 0 0;
+  }
+  .fifth .title h2 {
+    font-size: 28px;
+  }
+  .fifth .title h2::after {
+    width: 40px;
+  }
+  .fifth h3 {
+    font-size: 20px;
+  }
+  .fifth p {
+    font-size: 14px;
+  }
+  .sixth h3 {
+    font-size: 20px;
+  }
+  .sixth p {
+    font-size: 14px;
+  }
+  .six-half .title h2 {
+    font-size: 28px;
+  }
+  .six-half .title h2::after {
+    width: 40px;
+  }
+  .six-half h2 {
+    font-size: 22px;
+  }
+  .six-half .one span {
+    padding: 20px 30px;
+    font-size: 20px;
+  }
+  .six-half .one h2 {
+    font-size: 20px;
+    margin: 40px 0 15px 0;
+  }
+  .six-half .one p {
+    font-size: 14px;
+  }
+  .seventh .title {
+    padding: 15px 0 0 0;
+  }
+  .seventh .title h2 {
+    font-size: 28px;
+  }
+  .seventh .title h2::after {
+    width: 40px;
+  }
+  .seventh .image img {
+    width: 58.4px;
+  }
+  .last h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .last p {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
   .last .image a img {
     width: 120px;
   }
