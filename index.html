@@ -28,7 +28,7 @@
             <nav>
               <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Home</a>
+                  <a class="nav-link active" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#aboutus">About</a>
@@ -45,12 +45,16 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#ourfootprint">Foot Print</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Login</a>
+                </li>
               </ul>
             </nav>
             <div class="menu-open">
               <i onclick="toggleOpen()" class="bi bi-list"></i>
             </div>
           </div>
+          <!--  -->
           <div>
             <ul class="menu-list nav">
               <div class="container">
@@ -59,7 +63,9 @@
                 </div>
               </div>
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link active" onclick="toggleClose()" href="#home"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a
@@ -90,13 +96,17 @@
                   >Foot Print</a
                 >
               </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="toggleClose()" href="#">Login</a>
+              </li>
             </ul>
           </div>
+          <!--  -->
         </div>
       </header>
     </div>
 
-    <section class="zero">
+    <section class="zero" id="home">
       <video autoplay loop muted src="image/video.mp4"></video>
       <div class="minus">
         <div class="container">
@@ -156,7 +166,7 @@
             <div class="big-box overflow-hidden">
               <div class="box">
                 <div class="d-flex justify-content-center image">
-                  <img class="img-fluid" src="image/bitPlanning.png" alt="" />
+                  <img class="img-fluid" src="image/planning.png" alt="" />
                 </div>
                 <h4>Bit Planning and Optimisation</h4>
                 <p>
@@ -170,7 +180,7 @@
             <div class="big-box overflow-hidden">
               <div class="box">
                 <div class="d-flex justify-content-center image">
-                  <img class="img-fluid" src="image/outletClass.png" alt="" />
+                  <img class="img-fluid" src="image/store.png" alt="" />
                 </div>
                 <h4>Outlets Classification and Geo Targeting</h4>
                 <p>
@@ -184,7 +194,7 @@
             <div class="big-box overflow-hidden">
               <div class="box">
                 <div class="d-flex justify-content-center image">
-                  <img class="img-fluid" src="image/discover.png" alt="" />
+                  <img class="img-fluid" src="image/loupe.png" alt="" />
                 </div>
                 <h4>Discover and Onboard Outlet Easily</h4>
                 <p>
@@ -197,6 +207,7 @@
         </div>
       </div>
     </section>
+    <!--  -->
     <!-- What We Cover -->
     <section class="first-half">
       <div class="container">
@@ -254,7 +265,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="thing">
               <div class="header">
-                <p>Specalist</p>
+                <p>Specialist</p>
               </div>
               <div class="text-overlay">
                 <ul class="nav">
@@ -292,83 +303,86 @@
     <!-- What We Do -->
     <section class="third" id="whatwedo">
       <div class="container">
-        <div class="text-center title">
-          <h2>WHAT WE DO</h2>
+        <div class="title">
+          <h3>What We Do</h3>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-4">
-            <div class="box">
-              <p>
-                Market <br />
-                Entry
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div class="box">
-              <p>
-                Market <br />
-                Entry
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div class="box">
-              <p>
-                Market <br />
-                Entry
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div class="box">
-              <p>
-                Market <br />
-                Entry
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div class="box">
-              <p>
-                Market <br />
-                Entry
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div class="box">
-              <p>
-                Market <br />
-                Entry
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div class="box">
-              <p>
-                Market <br />
-                Entry
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div class="box">
-              <p>
-                Market <br />
-                Entry
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div class="box">
-              <p>
-                Market <br />
-                Entry
-              </p>
-            </div>
-          </div>
+        <div style="display: flex; justify-content: center">
+          <img class="img-fluid" src="image/Group 178.png" alt="" />
         </div>
+        <!-- <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="box">
+              <p>
+                Market <br />
+                Entry
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="box">
+              <p>
+                Market <br />
+                Entry
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="box">
+              <p>
+                Market <br />
+                Entry
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="box">
+              <p>
+                Market <br />
+                Entry
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="box">
+              <p>
+                Market <br />
+                Entry
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="box">
+              <p>
+                Market <br />
+                Entry
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="box">
+              <p>
+                Market <br />
+                Entry
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="box">
+              <p>
+                Market <br />
+                Entry
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="box">
+              <p>
+                Market <br />
+                Entry
+              </p>
+            </div>
+          </div>
+        </div> -->
       </div>
     </section>
     <!-- What We Do -->
@@ -533,7 +547,10 @@
           <h2>THE PLATFORM</h2>
         </div>
         <div class="row">
-          <div class="col-lg-4 order-lg-1 order-md-2">
+          <div
+            class="col-lg-5 order-lg-1 order-md-2"
+            style="align-content: center"
+          >
             <h3>
               View, Analyse, Filter and assign Territories over an Active GIS
               MAP.
@@ -563,10 +580,10 @@
             </ol>
           </div>
           <div
-            class="col-lg-8 order-lg-2 oder-md-1"
+            class="col-lg-7 order-lg-2 oder-md-1"
             style="align-content: center"
           >
-            <img class="img-fluid" src="image/dashboard.png" alt="" />
+            <img class="img-fluid" src="image/Group 180.png" alt="" />
           </div>
         </div>
       </div>
@@ -576,7 +593,7 @@
     <section class="sixth">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-4">
+          <div class="col-lg-6" style="align-content: center">
             <h3>
               View, Analyse, Filter and assign Territories over an Active GIS
               MAP.
@@ -622,8 +639,8 @@
               </p>
             </ol>
           </div>
-          <div class="col-lg-7">
-            <div class="phone">
+          <div class="col-lg-5">
+            <div class="text-center">
               <img
                 class="phone img-fluid"
                 src="image/phoneMockup 2.png"
@@ -750,7 +767,7 @@
                   <div class="d-flex justify-content-center">
                     <img
                       class="img-fluid"
-                      src="image/personalCare.png"
+                      src="image/Personal care.png"
                       alt=""
                     />
                   </div>
@@ -760,7 +777,7 @@
               <div class="col-lg-4 col-md-6 col-4">
                 <div class="image">
                   <div class="d-flex justify-content-center">
-                    <img class="img-fluid" src="image/pharma.png" alt="" />
+                    <img class="img-fluid" src="image/Pharma 2.png" alt="" />
                   </div>
                   <div class="text-center"><p>Pharmaceutical</p></div>
                 </div>
@@ -770,7 +787,7 @@
                   <div class="d-flex justify-content-center">
                     <img
                       class="img-fluid"
-                      src="image/consumerCritical.png"
+                      src="image/consumer critical.png"
                       alt=""
                     />
                   </div>
@@ -780,21 +797,25 @@
               <div class="col-lg-4 col-md-6 col-4">
                 <div class="image">
                   <div class="d-flex justify-content-center">
-                    <img
-                      class="img-fluid"
-                      src="image/foodBeverages.png"
-                      alt=""
-                    />
+                    <img class="img-fluid" src="image/Food & bev.png" alt="" />
                   </div>
-                  <div class="text-center"><p>food & Beverages</p></div>
+                  <div class="text-center"><p>Food & Beverages</p></div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 col-4">
                 <div class="image">
                   <div class="d-flex justify-content-center">
-                    <img class="img-fluid" src="image/homeCare.png" alt="" />
+                    <img class="img-fluid" src="image/Home care.png" alt="" />
                   </div>
                   <div class="text-center"><p>Home Care</p></div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-4">
+                <div class="image">
+                  <div class="d-flex justify-content-center">
+                    <img class="img-fluid" src="image/fmcd.png" alt="" />
+                  </div>
+                  <div class="text-center"><p>FMCD</p></div>
                 </div>
               </div>
             </div>
@@ -870,7 +891,7 @@
             </div>
           </div>
           <div class="col-lg-5">
-            <div class="phone">
+            <div class="text-center">
               <img class="phone img-fluid" src="image/phone 2.png" alt="" />
             </div>
           </div>
