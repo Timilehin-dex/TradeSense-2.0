@@ -262,13 +262,13 @@ header img {
 .first-half .thing {
   display: flex;
   justify-content: center;
+  align-content: center;
   align-items: center;
   border: 1px solid rgb(222, 226, 230);
   border-radius: 6px;
   box-shadow: 4px 5px 10px -4px #8e8b8d;
   height: 180px;
   width: 100%;
-  align-content: center;
   position: relative;
   overflow: hidden;
   transition: 0.7s ease-in-out;
@@ -287,6 +287,7 @@ header img {
   margin: 0;
 }
 .first-half .text-overlay {
+  /* padding: 20px 0; */
   align-items: center;
   background-color: rgba(7, 34, 47, 0.9);
   width: 100%;
@@ -833,6 +834,9 @@ footer p {
   }
   .first-half .header p {
     font-size: 20px;
+  }
+  .first-half .text-overlay {
+    padding: 20px 0;
   }
   .third .title h3 {
     font-size: 26px;
