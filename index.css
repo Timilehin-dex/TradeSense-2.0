@@ -205,7 +205,7 @@ header img {
   transition: 0.7s ease-in-out;
 }
 .first .box:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 .first .box img {
   width: 70px;
@@ -497,6 +497,7 @@ header img {
 }
 .sixth .phone {
   padding-left: 20px;
+  object-fit: contain;
   animation: phone 5s linear infinite;
 }
 @keyframes phone {
@@ -616,6 +617,11 @@ header img {
 }
 .seventh .image img {
   width: 78.4px;
+}
+.seventh .map img {
+  height: 25rem;
+  /* object-fit: cover; */
+  object-fit: contain;
 }
 .seventh .image p {
   padding-top: 8px;
